@@ -1,0 +1,131 @@
+body {
+  position: absolute;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 40px;
+  background: #e5e5e5;
+}
+h1 {
+  position: relative;
+  left: 100px;
+  top: 80px;
+}
+
+/*----BOTÕES--------*/
+
+.caixa-botao {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  position: absolute;
+  width: 600x;
+  height: 250px;
+  left: 200px;
+  top: 684px;
+}
+.caixa-botao button {
+  padding: 24px;
+  height: 67px;
+  width: 320px;
+  border-radius: 15px;
+  margin: 120px 0;
+}
+.botao1 {
+  color: white;
+  background-color: #0a3871;
+}
+
+.botao2 {
+  color: #0a3871;
+  background-color: #dededf;
+  border: 1px solid #0a3871;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+/*----AREA1--------*/
+
+.box-area1 {
+  position: absolute;
+  width: 400px;
+  height: 744px;
+  left: 900px;
+  top: 40px;
+
+  /* White */
+
+  background: #ffffff;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+.box-area1 p {
+  background-color: #dededf;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: absolute;
+  margin: 0 15px;
+  height: 250px;
+  width: 360px;
+  bottom: 110px;
+  border-radius: 32px;
+  border: none;
+  color: rgb(95, 95, 95);
+}
+.box-area1 span {
+  font-size: 32px;
+  margin: px;
+  padding: 20px;
+  color: #0a3871;
+}
+.box-area1 button {
+  position: absolute;
+  height: 67px;
+  width: 250px;
+  border-radius: 15px;
+  top: 650px;
+  left: 80px;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+.box-area1 img {
+  margin: 100px 30px;
+  max-width: 250px;
+}
+
+/*----AREA2--------*/
+
+.box-area2 {
+  position: absolute;
+  left: 240px;
+  top: 168px;
+}
+.box-area2 input {
+  width: 600px;
+  height: 470px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  border: none;
+  color: #0a3871;
+  background-color: #e5e5e5;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  text-align: center;
+}
+.box-area2 label {
+  position: absolute;
+  margin: 20px;
+  font-size: 32px;
+  color: #494949;
+  font-family: 'Inter';
+}

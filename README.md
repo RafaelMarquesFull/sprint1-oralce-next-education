@@ -1,1 +1,1 @@
-# sprint1-oralce-next-education
+# Sprint-1-Oracle-Next-Education
