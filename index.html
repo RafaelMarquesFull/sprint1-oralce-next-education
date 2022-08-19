@@ -10,16 +10,21 @@
   </head>
   <body>
     <header>
-      <h1><img src="/assets/img/Vectorlogo.svg" alt="" /></h1>
+      <h1><img src="/assets/img/Vectorlogo.svg" alt=" logo Alura" /></h1>
     </header>
     <main>
       <div class="box-area1">
         <img src="/assets/img/img1.svg" alt="" />
         <p>
           O seu texto criptografado aparecera aqui:
-          <span class="cripto-result"></span>
+          <textarea
+            cols="18"
+            rows="7"
+            type="text"
+            id="cripto-result"
+          ></textarea>
         </p>
-        <button>Copiar</button>
+        <button class="copiar">Copiar</button>
       </div>
       <div class="box-area2">
         <label for="entrada-texto">Digite seu texto</label>

@@ -37,13 +37,21 @@ h1 {
   color: white;
   background-color: #0a3871;
 }
+.botao1:hover {
+  background-color: #dededf;
+  color: #0a3871;
+}
 
 .botao2 {
   color: #0a3871;
   background-color: #dededf;
-  border: 1px solid #0a3871;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border: 2px solid #0a3871;
   border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.botao2:hover {
+  background: #0a3871;
+  color: #dededf;
 }
 
 /*----AREA1--------*/
@@ -58,6 +66,7 @@ h1 {
   /* White */
 
   background: #ffffff;
+
   /* shadow */
 
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -72,15 +81,20 @@ h1 {
   position: absolute;
   margin: 0 15px;
   height: 250px;
-  width: 360px;
+  width: 335px;
   bottom: 110px;
   border-radius: 32px;
   border: none;
   color: rgb(95, 95, 95);
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
-.box-area1 span {
-  font-size: 32px;
-  margin: px;
+.box-area1 textarea {
+  background-color: #dededf;
+  box-sizing: border-box;
+  border: none;
+  height: auto;
+  font-size: 24px;
+  margin: 10px;
   padding: 20px;
   color: #0a3871;
 }
@@ -91,10 +105,14 @@ h1 {
   border-radius: 15px;
   top: 650px;
   left: 80px;
-  border: 1px solid #0a3871;
+  border: 2px solid #0a3871;
   color: #0a3871;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
+}
+.box-area1 button:hover {
+  background: #0a3871;
+  color: #dededf;
 }
 .box-area1 img {
   margin: 100px 30px;
